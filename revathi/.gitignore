@@ -1,4 +1,3 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -7,17 +6,25 @@ __pycache__/
 # Virtual environment
 venv/
 env/
+skill/
 pyvenv.cfg
 
 # Django stuff:
 *.sqlite3
 *.log
 
-# Ignore IDE/editor files
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Environment variables
+.env
+
+# IDE/editor files
 .vscode/
 .idea/
 
-# Ignore OS generated files
+# OS generated files
 .DS_Store
 Thumbs.db
-
